@@ -8,3 +8,7 @@ students = {
 students.each do |k, v,|
   puts "#{k} #{v} students"
 end
+# students.each do |k, v|
+#   puts k
+# end
+students.each_key {|key| puts key }
